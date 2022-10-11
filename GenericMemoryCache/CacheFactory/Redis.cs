@@ -12,12 +12,12 @@
             throw new NotImplementedException();
         }
 
-        public void RemoveData<T>(string key)
+        public void RemoveData(string key)
         {
             throw new NotImplementedException();
         }
 
-        public bool SetData<T>(string key, T value, DateTimeOffset expriationTime)
+        public void SetData<T>(string key, T value, DateTimeOffset expriationTime)
         {
             throw new NotImplementedException();
         }
