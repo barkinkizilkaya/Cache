@@ -16,17 +16,18 @@ namespace GenericMemoryCache.CacheFactory
 
         public T GetData<T>(string key)
         {
-            throw new NotImplementedException();
+            _memoryCache.TryGetValue<T>(key, out var value);
+            return value;
         }
 
-        public void RemoveData<T>(string key)
+        public void RemoveData(string key)
         {
-            throw new NotImplementedException();
+            _memoryCache.Remove(key);
         }
 
-        public bool SetData<T>(string key, T value, DateTimeOffset expriationTime)
+        public void SetData<T>(string key, T value, DateTimeOffset expriationTime)
         {
-            throw new NotImplementedException();
+            _memoryCache.Set(key, value, expriationTime);
         }
     }
 }
