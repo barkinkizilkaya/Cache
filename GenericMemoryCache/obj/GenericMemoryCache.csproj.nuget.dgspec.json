@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bkizilkaya\\source\\TestApps\\GenericMemoryCache\\GenericMemoryCache\\GenericMemoryCache.csproj": {}
+    "/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/GenericMemoryCache.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bkizilkaya\\source\\TestApps\\GenericMemoryCache\\GenericMemoryCache\\GenericMemoryCache.csproj": {
+    "/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/GenericMemoryCache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bkizilkaya\\source\\TestApps\\GenericMemoryCache\\GenericMemoryCache\\GenericMemoryCache.csproj",
+        "projectUniqueName": "/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/GenericMemoryCache.csproj",
         "projectName": "GenericMemoryCache",
-        "projectPath": "C:\\Users\\bkizilkaya\\source\\TestApps\\GenericMemoryCache\\GenericMemoryCache\\GenericMemoryCache.csproj",
-        "packagesPath": "C:\\Users\\bkizilkaya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bkizilkaya\\source\\TestApps\\GenericMemoryCache\\GenericMemoryCache\\obj\\",
+        "projectPath": "/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/GenericMemoryCache.csproj",
+        "packagesPath": "/Users/barkinkizilkaya/.nuget/packages/",
+        "outputPath": "/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bkizilkaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/barkinkizilkaya/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Caching.Memory;
+﻿using GenericMemoryCache.Helper;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace GenericMemoryCache.CacheFactory
 {
@@ -13,15 +14,15 @@ namespace GenericMemoryCache.CacheFactory
             _serviceProvider = serviceProvider;
         }
 
-        [CacheAttribute("getanimal", "memory")]
-        public  ICache getCache(String Type)
+       
+        public  ICache getCache(CacheTypes Type)
         {
         
-            if (Type.ToLower().Equals("memory"))
+            if (Type == CacheTypes.InMemory)
             {
                 return (ICache)_serviceProvider.GetService(typeof(Memory));
             
-             }               
+            }               
             else
                 return (ICache)_serviceProvider.GetService(typeof(Redis));
 

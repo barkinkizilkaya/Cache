@@ -1,5 +1,6 @@
 
 
+using GenericMemoryCache.Helper;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -9,22 +10,16 @@ namespace GenericMemoryCache.Controllers
     [Route("[controller]")]
     public class CacheController : ControllerBase
     {
-
-        private readonly ILogger<CacheController> _logger;
-        private readonly CacheFactory.CacheFactory _cacheFactory;
-
-
-        public CacheController(ILogger<CacheController> logger, CacheFactory.CacheFactory cacheFactory)
+        public CacheController()
         {
-            _logger = logger;
-            _cacheFactory = cacheFactory;
         }
-
-        [HttpGet(Name = "GetCachedData")]
-        public string Get( )
+       
+        [HttpGet("{AccountId}")]
+        [Cacheable("GetCachedData",CacheTypes.InMemory)]
+        public string Get(int AccountId)
         {
-            var result = _cacheFactory.getCache("memory");
-            Console.WriteLine(result.CacheType());
+           
+            Console.WriteLine("test");
             return "";
         }
     }
