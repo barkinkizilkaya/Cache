@@ -16,9 +16,12 @@ namespace GenericMemoryCache
         public async Task Invoke(HttpContext context)
         {
 
+
+
             string controllerName = context.Request.RouteValues["controller"].ToString();
             string actionName = context.Request.RouteValues["action"].ToString();
 
+            string path = context.Request.Path.Value;
             // a try/catch can be added here because you don't want middleware failures to interfere with normal functionality
             var endpoint = context.Features.Get<IEndpointFeature>()?.Endpoint;
             var attribute = endpoint?.Metadata.GetMetadata<Cacheable>();

@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{FB93C788-C340-4A4B-A8D2-B134564BE1F5}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GenericMemoryCache PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/CachingMiddleware.cs" relfile="GenericMemoryCache/CachingMiddleware.cs" line="26" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/Controllers/CacheController.cs" relfile="GenericMemoryCache/Controllers/CacheController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/CachingMiddleware.cs" relfile="GenericMemoryCache/CachingMiddleware.cs" line="22" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/CachingMiddleware.cs" relfile="GenericMemoryCache/CachingMiddleware.cs" line="24" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/CachingMiddleware.cs" relfile="GenericMemoryCache/CachingMiddleware.cs" line="21" column="1" />
+      <Breakpoint file="/Users/barkinkizilkaya/Projects/Cache/GenericMemoryCache/CachingMiddleware.cs" relfile="GenericMemoryCache/CachingMiddleware.cs" line="34" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="GenericMemoryCache/Cacheable.cs">
+    <Files>
+      <File FileName="GenericMemoryCache/CacheAttribute.cs" Line="16" Column="1" />
+      <File FileName="GenericMemoryCache/Controllers/CacheController.cs" Line="21" Column="12" />
+      <File FileName="GenericMemoryCache/Helper/Constants.cs" Line="8" Column="27" />
+      <File FileName="GenericMemoryCache/CacheFactory/CacheFactory.cs" Line="6" Column="29" />
+      <File FileName="GenericMemoryCache/CacheFactory/ICache.cs" Line="1" Column="1" />
+      <File FileName="GenericMemoryCache/CacheFactory/Memory.cs" Line="1" Column="1" />
+      <File FileName="GenericMemoryCache/CacheFactory/Redis.cs" Line="1" Column="1" />
+      <File FileName="GenericMemoryCache/Entity/Entity.cs" Line="1" Column="1" />
+      <File FileName="GenericMemoryCache/CachingMiddleware.cs" Line="33" Column="12" />
+      <File FileName="GenericMemoryCache/Program.cs" Line="28" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GenericMemoryCache" expanded="True">
+            <Node name="GenericMemoryCache" expanded="True">
+              <Node name="CacheFactory" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entity" expanded="True" />
+              <Node name="Helper" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Cacheable.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>context.Current</Value>
+          <Value>context.Request.Path.Value</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
